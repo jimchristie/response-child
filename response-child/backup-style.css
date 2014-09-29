@@ -1,0 +1,116 @@
+@import "../response/style.css";
+
+/*
+Theme Name:     Jimirings.com Response Child
+Theme URI:      http://cyberchimps.com/cyberchimps-free/
+Description:    This child theme is dependant upon the Response Theme by Cyberchimps
+Author:         Jimirings
+Author URI:     http://jimirings.com
+Template:       response
+Version:        13.02.20
+*/
+
+/* Background */
+
+body {
+    background-image: -webkit-linear-gradient(top, #000 300px, #904a00 800px);
+    background-image: -moz-linear-gradient(top, #000 300px, #904a00 800px);
+    background-image: -o-linear-gradient(top, #000 300px, #904a00 800px);
+    background-image: -ms-linear-gradient(top, #000 300px, #904a00 800px);
+    background-attachment: fixed;
+}
+
+
+/* --------------Header---------------------- */
+.navbar .nav > li > a {color: #444; font-size: 105%;  }
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: #111;
+    border-bottom-color: #111;
+}
+.main-navigation .nav li.dropdown.active > .dropdown-toggle, 
+.main-navigation .nav li.dropdown.current-menu-ancestor > .dropdown-toggle, 
+.navbar .nav > .active > a:hover,
+.main-navigation .nav li a:hover,
+.main-navigation .nav > .active > a,
+.navbar .nav > .active > a:hover {
+    background-color: #904a00;
+    color: #fff;
+    text-shadow: none;
+}
+.navbar .nav li.dropdown>.dropdown-toggle .caret { 
+    
+}
+.navbar .nav li.dropdown>a:hover .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.nav-collapse .dropdown-menu a {
+    color: #222;
+}
+.dropdown-menu .active > a {
+    background-color: #904a00;
+    background-image: none;
+    color: #fff;
+}
+
+
+
+.row-fluid .span7 {width: inherit; }
+
+/* --------------Pages----------------------------- */
+
+.page-header {display: none; }
+h2.entry-title a:hover {
+    color: #904a00;
+    text-decoration: none;
+}
+
+textarea:focus, input[type="text"]:focus, 
+input[type="password"]:focus, input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, input[type="date"]:focus, 
+input[type="month"]:focus, input[type="time"]:focus, 
+input[type="week"]:focus, input[type="number"]:focus, 
+input[type="email"]:focus, input[type="url"]:focus, 
+input[type="search"]:focus, input[type="tel"]:focus, 
+input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(144, 74, 0, 0.8);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),  0 0 8px rgba(144, 74, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),  0 0 8px rgba(144, 74, 0, 0.6), 0 0 8px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),  0 0 8px rgba(144, 74, 0, 0.6), 0 0 8px;
+}
+
+/* 404 Page */
+article.error404 {text-align: center;}
+
+article.error404 h2.entry-title {
+    font-size: 150%;
+    font-weight: bold;
+    }
+
+article.error404 form#searchform {
+    margin: 0 auto 0 auto; 
+    float: none;
+}
+
+
+
+/* --------------Comments-------------------------- */
+.form-allowed-tags {display: none; }
+
+
+/* -----------------Footer------------------------- */ 
+footer .span6:first-child {display:none; }
+
+footer .span6:nth-child(2) {
+    width: 100%;    
+}
+
+footer .span6:nth-child(2) #copyright {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    }
+
+
+/*------------------Plugins-------------------------*/
+
